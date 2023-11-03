@@ -14,7 +14,7 @@
 	<name>cuentas</name>
 	<description>Sistema de Manejo de Cuentas Bancarias</description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17.0.9</java.version>
 		<joinfaces.version>5.0.3</joinfaces.version>
 	</properties>
 	<dependencies>
@@ -26,6 +26,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-mysql</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
